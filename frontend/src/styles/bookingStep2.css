@@ -1,0 +1,121 @@
+
+
+.booking-step-2 {
+    padding: 20px;
+    padding-bottom: 80px;
+    font-family: 'Inter', sans-serif;
+    background-color: #000;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h2{
+    color: #e0e0e0;
+  }
+  .booking-step-2 h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .week-navigator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #ccc;
+  }
+  
+  .week-navigator button {
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 60px;
+  }
+  
+  .week-navigator button:hover {
+    background-color: rgb(178, 174, 176);
+    color: #000;
+  }
+  
+  .week-navigator span {
+    font-size: 16px;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .day-column {
+    background-color: #000;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .day-header {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#ccc;
+  }
+  
+  .time-slot {
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .time-slot:hover {
+    background-color: rgb(178, 174, 176);
+    color: #000;
+  }
+  
+  .time-slot.selected {
+    background-color: rgb(178, 174, 176);
+    color: #333;
+  }
+  
+  .step-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 180px;
+    height: 40px; 
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 10px;
+    background-color:#333;
+    color: #ccc;
+  }
+  
+  
+  .step-button:hover {
+    background-color: rgb(178, 174, 176);
+    color: #333;
+  }
+  
+ 
+  

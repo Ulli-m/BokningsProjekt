@@ -1,0 +1,51 @@
+
+.booking-confirmation {
+    background-color: rgb(178, 174, 176);
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: 60px auto;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Inter', sans-serif;
+    color: #111;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .booking-confirmation h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #111;
+  }
+  
+  .booking-confirmation p {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .booking-confirmation strong {
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .booking-confirmation button {
+    margin-top: 30px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-confirmation button:hover {
+    background-color: #333;
+  }
+  

@@ -1,0 +1,36 @@
+.app{
+    background-color: rgb(178, 174, 176);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+  @media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .app {
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .next-button {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}
+
+

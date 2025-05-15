@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Parcel build output
+dist/
+.parcel-cache/
+
+# Loggar
+*.log
+
+# Systemfiler
+.DS_Store
+Thumbs.db
+
+# IDE-filer (t.ex. VS Code)
+.vscode/
+
+# Miljöfiler (om du använder .env i frontend)
+.env

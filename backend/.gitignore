@@ -1,0 +1,16 @@
+# PHP-beroenden 
+vendor/
+
+# Docker-relaterade
+.env
+docker-compose.override.yml
+
+# Loggar
+*.log
+
+# Systemfiler
+.DS_Store
+Thumbs.db
+
+# IDE-filer
+.vscode/
